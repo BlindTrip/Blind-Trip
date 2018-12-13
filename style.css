@@ -12,12 +12,7 @@ h1{
   font-weight: lighter;
   font-size: 25px;
 }
-h2 {
-  font-family: Zapfino;
-  color:#181818 ;
-  font-weight: lighter;
-  font-size: 20px;
-}
+
 a {
   color: white;
 }
@@ -143,6 +138,13 @@ nav a:hover
     justify-content: center;
     align-items: flex-end;
     background-color: rgb(241,235,236);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Avenir next
  
  }
 
@@ -159,4 +161,32 @@ nav a:hover
   margin-top: 41px;
 }
 
+.card h2 {
+  margin-top: 30px; 
+  font-family: Zapfino;
+  color:#181818 ;
+  font-weight: lighter;
+  font-size: 20px;
+}
 
+.card p {
+  padding: 10px;
+}
+
+.background-white {
+  background-color: white; 
+  width: 100vw;
+  padding-top: 30px; 
+}
+
+.row h2 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-family: Zapfino;
+  font-weight: lighter;
+  font-size: 20px;
+  }
+
+  .btn-primary{
+  margin: 30px;
+}
