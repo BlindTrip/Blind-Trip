@@ -1,0 +1,162 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 15px;
+  font-family: Avenir;
+}
+
+
+h1{
+  font-family: Zapfino;
+  color: Grey;
+  font-weight: lighter;
+  font-size: 25px;
+}
+h2 {
+  font-family: Zapfino;
+  color:#181818 ;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(241,235,236);
+
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: black;
+  background-color: rgb(241,235,236)
+}
+.card{
+ 
+  text-align: center;
+  font-weight: lighter;
+ 
+}
+
+
+#footer a {
+  color: black;
+  font-size: 15px;
+}
+#footer a:hover {
+   color: #760001;
+}
+.container h2{
+  color:rgb(142,33,73);
+  font-size: 30px;
+}
+
+.bannière {
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(241,235,236);
+ 
+ }
+
+ #conteneur
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253,253,253);
+    justify-content: center;
+    align-items: center;
+}
+
+.my-margin {
+  margin-top: 41px;
+}
+
+
